@@ -40,48 +40,48 @@ const Home = () => {
           ))}
         </div>
         
-        <div className="container mx-auto px-8 md:px-12 relative z-10">
-          <div className="text-center max-w-5xl mx-auto space-y-8">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
+          <div className="text-center max-w-5xl mx-auto space-y-6 sm:space-y-8">
             {/* Main Title */}
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-anime">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-anime">
               <span className="block bg-gradient-to-r from-primary-600 via-secondary-500 to-primary-600 bg-clip-text text-transparent animate-gradient-shift bg-[length:200%_auto]">PEACE & WAR</span>
-              <span className="text-2xl md:text-3xl font-japanese text-neutral-600 dark:text-neutral-400 mt-4 block">
+              <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-japanese text-neutral-600 dark:text-neutral-400 mt-2 sm:mt-4 block">
                 平和と戦争
               </span>
             </h1>
             
-            <p className="text-lg md:text-xl lg:text-2xl text-neutral-700 dark:text-neutral-300 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-neutral-700 dark:text-neutral-300 max-w-3xl mx-auto leading-relaxed px-4">
               Where tranquility meets intensity. Discover anime merchandise that embodies both serenity and strength.
             </p>
             
-            <div className="flex gap-6 justify-center flex-wrap pt-4">
+            <div className="flex gap-3 sm:gap-4 md:gap-6 justify-center flex-wrap pt-4 px-4">
               <Link 
                 to="/products" 
-                className="px-10 py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-2xl font-semibold hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-primary-500/25"
+                className="px-6 sm:px-8 md:px-10 py-3 sm:py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl sm:rounded-2xl font-semibold hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-primary-500/25 text-sm sm:text-base"
               >
                 Explore Collection
               </Link>
               <Link 
                 to="/products?category=t-shirts" 
-                className="px-10 py-4 border-2 border-primary-500 text-primary-600 dark:text-primary-400 rounded-2xl font-semibold hover:bg-primary-50 dark:hover:bg-primary-950/30 transition-all duration-300"
+                className="px-6 sm:px-8 md:px-10 py-3 sm:py-4 border-2 border-primary-500 text-primary-600 dark:text-primary-400 rounded-xl sm:rounded-2xl font-semibold hover:bg-primary-50 dark:hover:bg-primary-950/30 transition-all duration-300 text-sm sm:text-base"
               >
                 View Featured
               </Link>
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 md:gap-12 max-w-3xl mx-auto mt-16">
-              <div className="text-center space-y-3">
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent">500+</div>
-                <div className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base">Happy Customers</div>
+            <div className="grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-12 max-w-3xl mx-auto mt-12 sm:mt-16 px-4">
+              <div className="text-center space-y-2 sm:space-y-3">
+                <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent">500+</div>
+                <div className="text-neutral-600 dark:text-neutral-400 text-xs sm:text-sm md:text-base">Happy Customers</div>
               </div>
-              <div className="text-center space-y-3">
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-secondary-500 to-secondary-600 bg-clip-text text-transparent">50+</div>
-                <div className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base">Unique Products</div>
+              <div className="text-center space-y-2 sm:space-y-3">
+                <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-secondary-500 to-secondary-600 bg-clip-text text-transparent">50+</div>
+                <div className="text-neutral-600 dark:text-neutral-400 text-xs sm:text-sm md:text-base">Unique Products</div>
               </div>
-              <div className="text-center space-y-3">
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-accent-coral to-accent-mint bg-clip-text text-transparent">24/7</div>
-                <div className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base">Support</div>
+              <div className="text-center space-y-2 sm:space-y-3">
+                <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-accent-coral to-accent-mint bg-clip-text text-transparent">24/7</div>
+                <div className="text-neutral-600 dark:text-neutral-400 text-xs sm:text-sm md:text-base">Support</div>
               </div>
             </div>
           </div>
@@ -97,20 +97,20 @@ const Home = () => {
           <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_80%,rgba(255,107,107,0.1),transparent_50%)]"></div>
         </div>
         
-        <div className="container mx-auto px-8 md:px-12 relative z-10">
-          <div className="text-center mb-20 space-y-8">
-            <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-100 to-secondary-100 dark:from-primary-900/30 dark:to-secondary-900/30 rounded-full border border-primary-200 dark:border-primary-800">
-              <span className="text-primary-600 dark:text-primary-400 font-semibold text-sm uppercase tracking-wider">Discover Collections</span>
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
+          <div className="text-center mb-12 sm:mb-16 md:mb-20 space-y-4 sm:space-y-6">
+            <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-neutral-100 to-neutral-200/50 dark:from-neutral-800 dark:to-neutral-700/50 rounded-full border border-neutral-300/50 dark:border-neutral-600/50">
+              <span className="text-primary-600 dark:text-primary-400 font-semibold text-xs sm:text-sm uppercase tracking-wider">Discover Collections</span>
             </div>
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold px-4">
               <span className="bg-gradient-to-r from-primary-600 via-secondary-500 to-primary-600 bg-clip-text text-transparent animate-gradient-shift bg-[length:200%_auto]">Shop by Category</span>
             </h2>
-            <p className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-400 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-neutral-600 dark:text-neutral-400 max-w-4xl mx-auto leading-relaxed px-4">
               Dive into our meticulously crafted collections where every piece tells a story of passion and artistry
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 md:gap-10 lg:gap-12 max-w-6xl mx-auto">
+          <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 lg:gap-12 max-w-6xl mx-auto px-4">
             {/* T-Shirts Category */}
             <Link 
               to="/products?category=t-shirts" 
@@ -241,31 +241,31 @@ const Home = () => {
           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-secondary-200/20 to-accent-coral/20 dark:from-secondary-800/10 dark:to-accent-coral/10 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="container mx-auto px-8 md:px-12 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
           {/* Section Header */}
-          <div className="text-center mb-20 space-y-6">
-            <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-neutral-100 to-neutral-200/50 dark:from-neutral-800 dark:to-neutral-700/50 rounded-full border border-neutral-300/50 dark:border-neutral-600/50">
-              <span className="text-neutral-700 dark:text-neutral-300 font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
+          <div className="text-center mb-12 sm:mb-16 md:mb-20 space-y-4 sm:space-y-6">
+            <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-neutral-100 to-neutral-200/50 dark:from-neutral-800 dark:to-neutral-700/50 rounded-full border border-neutral-300/50 dark:border-neutral-600/50">
+              <span className="text-neutral-700 dark:text-neutral-300 font-semibold text-xs sm:text-sm uppercase tracking-wider">Why Choose Us</span>
             </div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold px-4">
               <span className="bg-gradient-to-r from-neutral-800 via-primary-600 to-neutral-800 dark:from-neutral-200 dark:via-primary-400 dark:to-neutral-200 bg-clip-text text-transparent">Premium Experience</span>
             </h2>
-            <p className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto leading-relaxed px-4">
               We're committed to delivering excellence in every aspect of your shopping journey
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 md:gap-10 lg:gap-12 max-w-7xl mx-auto">
+          <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 lg:gap-12 max-w-7xl mx-auto px-4">
             {/* Free Shipping */}
             <div className="group relative overflow-hidden">
               {/* Modern Card Background */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-blue-950/30 dark:via-indigo-950/30 dark:to-purple-950/30 rounded-3xl border border-blue-200/50 dark:border-blue-800/50 shadow-xl shadow-blue-500/10 dark:shadow-blue-500/5 group-hover:shadow-2xl group-hover:shadow-blue-500/20 dark:group-hover:shadow-blue-500/10 transition-all duration-500"></div>
               
               {/* Card Content */}
-              <div className="relative p-10 text-center">
+              <div className="relative p-6 sm:p-8 md:p-10 text-center">
                 {/* Icon with Modern Design */}
-                <div className="relative mb-8">
-                  <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-blue-500/30 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
+                <div className="relative mb-6 sm:mb-8">
+                  <div className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-blue-500/30 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
                     <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                     </svg>
@@ -275,8 +275,8 @@ const Home = () => {
                   <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-indigo-400/30 rounded-full blur-sm"></div>
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Fast & Free Shipping</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-base leading-relaxed mb-6">Enjoy complimentary worldwide shipping on all orders over $50. No hidden fees, just pure value.</p>
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Fast & Free Shipping</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">Enjoy complimentary worldwide shipping on all orders over $50. No hidden fees, just pure value.</p>
                 
                 {/* Modern Badge */}
                 <div className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full text-sm font-semibold shadow-lg shadow-blue-500/25 group-hover:shadow-xl group-hover:shadow-blue-500/40 transition-all duration-300">
@@ -294,10 +294,10 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 dark:from-emerald-950/30 dark:via-teal-950/30 dark:to-cyan-950/30 rounded-3xl border border-emerald-200/50 dark:border-emerald-800/50 shadow-xl shadow-emerald-500/10 dark:shadow-emerald-500/5 group-hover:shadow-2xl group-hover:shadow-emerald-500/20 dark:group-hover:shadow-emerald-500/10 transition-all duration-500"></div>
               
               {/* Card Content */}
-              <div className="relative p-10 text-center">
+              <div className="relative p-6 sm:p-8 md:p-10 text-center">
                 {/* Icon with Modern Design */}
-                <div className="relative mb-8">
-                  <div className="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-emerald-500/30 group-hover:scale-110 group-hover:-rotate-3 transition-all duration-500">
+                <div className="relative mb-6 sm:mb-8">
+                  <div className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-emerald-500/30 group-hover:scale-110 group-hover:-rotate-3 transition-all duration-500">
                     <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
@@ -307,8 +307,8 @@ const Home = () => {
                   <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-teal-400/30 rounded-full blur-sm"></div>
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">Premium Quality</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-base leading-relaxed mb-6">Every product undergoes rigorous quality checks. We guarantee premium materials and exceptional craftsmanship.</p>
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">Premium Quality</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">Every product undergoes rigorous quality checks. We guarantee premium materials and exceptional craftsmanship.</p>
                 
                 {/* Modern Badge */}
                 <div className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-full text-sm font-semibold shadow-lg shadow-emerald-500/25 group-hover:shadow-xl group-hover:shadow-emerald-500/40 transition-all duration-300">
@@ -326,10 +326,10 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 dark:from-orange-950/30 dark:via-amber-950/30 dark:to-yellow-950/30 rounded-3xl border border-orange-200/50 dark:border-orange-800/50 shadow-xl shadow-orange-500/10 dark:shadow-orange-500/5 group-hover:shadow-2xl group-hover:shadow-orange-500/20 dark:group-hover:shadow-orange-500/10 transition-all duration-500"></div>
               
               {/* Card Content */}
-              <div className="relative p-10 text-center">
+              <div className="relative p-6 sm:p-8 md:p-10 text-center">
                 {/* Icon with Modern Design */}
-                <div className="relative mb-8">
-                  <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-amber-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-orange-500/30 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
+                <div className="relative mb-6 sm:mb-8">
+                  <div className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-orange-500/30 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
                     <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
@@ -339,8 +339,8 @@ const Home = () => {
                   <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-amber-400/30 rounded-full blur-sm"></div>
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">24/7 Expert Support</h3>
-                <p className="text-gray-600 dark:text-gray-400 text-base leading-relaxed mb-6">Our dedicated support team is always ready to assist you. Get help anytime, anywhere with your orders.</p>
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">24/7 Expert Support</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">Our dedicated support team is always ready to assist you. Get help anytime, anywhere with your orders.</p>
                 
                 {/* Modern Badge */}
                 <div className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-orange-500 to-amber-600 text-white rounded-full text-sm font-semibold shadow-lg shadow-orange-500/25 group-hover:shadow-xl group-hover:shadow-orange-500/40 transition-all duration-300">
