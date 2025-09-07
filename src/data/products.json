@@ -1,0 +1,126 @@
+[
+  {
+    "id": "1",
+    "name": "Kawaii Cat Girl T-Shirt",
+    "category": "t-shirts",
+    "price": 24.99,
+    "description": "Adorable cat girl design with pastel colors. Perfect for anime lovers who want to show their kawaii side!",
+    "images": [
+      "/images/black_front.png",
+      "/images/black_back.png"
+    ],
+    "image": "/images/black_front.png",
+    "stock": 15,
+    "options": {
+      "sizes": ["XS", "S", "M", "L", "XL"]
+    }
+  },
+  {
+    "id": "2",
+    "name": "Dragon Ball Z Power T-Shirt",
+    "category": "t-shirts",
+    "price": 27.99,
+    "description": "Show your power level with this epic Dragon Ball Z inspired design featuring energy auras and bold graphics.",
+    "images": [
+      "/images/white_front.png"
+    ],
+    "image": "/images/white_front.png",
+    "stock": 12,
+    "options": {
+      "sizes": ["S", "M", "L", "XL", "XXL"]
+    }
+  },
+  {
+    "id": "100",
+    "name": "Kawaii Cat Girl T-Shirt",
+    "category": "t-shirts",
+    "price": 24.99,
+    "description": "Adorable cat girl design with pastel colors. Perfect for anime lovers who want to show their kawaii side!",
+    "images": [
+      "/images/black_front.png",
+      "/images/black_back.png"
+    ],
+    "image": "/images/black_front.png",
+    "stock": 15,
+    "options": {
+      "sizes": ["XS", "S", "M", "L", "XL"]
+    }
+  },
+  {
+    "id": "200",
+    "name": "Dragon Ball Z Power T-Shirt",
+    "category": "t-shirts",
+    "price": 27.99,
+    "description": "Show your power level with this epic Dragon Ball Z inspired design featuring energy auras and bold graphics.",
+    "images": [
+      "/images/white_front.png"
+    ],
+    "image": "/images/white_front.png",
+    "stock": 12,
+    "options": {
+      "sizes": ["S", "M", "L", "XL", "XXL"]
+    }
+  },
+  {
+    "id": "19",
+    "name": "Sakura Blossom Hair Clips",
+    "category": "accessories",
+    "price": 15.99,
+    "description": "Beautiful cherry blossom hair clips set. Includes 6 pieces with different pink shades and pearl accents.",
+    "images": [
+      "/images/white_front.png"
+    ],
+    "image": "/images/hairclips-sakura.jpg",
+    "stock": 25,
+    "material": "Metal alloy with enamel coating",
+    "pieces": 6
+  },
+  {
+    "id": "14",
+    "name": "Anime Eyes Phone Case",
+    "category": "accessories",
+    "price": 19.99,
+    "description": "Protective phone case with cute anime eyes design. Available for multiple phone models with kawaii expressions.",
+    "images": [
+      "/images/black_front.png",
+      "/images/black_back.png"
+    ],
+    "image": "/images/phonecase-eyes.jpg",
+    "stock": 30,
+    "options": {
+      "compatibility": ["iPhone 14", "iPhone 13", "Samsung Galaxy S23", "Google Pixel 7"]
+    },
+    "material": "Silicone with printed design"
+  },
+  {
+    "id": "5",
+    "name": "Ramen Bowl Ceramic Mug",
+    "category": "cups",
+    "price": 22.99,
+    "description": "Authentic Japanese ramen bowl design mug. Perfect for your morning coffee or evening tea with anime vibes.",
+    "images": [
+      "/images/white_front.png"
+    ],
+    "image": "/images/mug-ramen.jpg",
+    "stock": 18,
+    "capacity": "350ml",
+    "material": "Ceramic with food-safe glaze",
+    "dishwasher_safe": true
+  },
+  {
+    "id": "6",
+    "name": "Totoro Travel Tumbler",
+    "category": "cups",
+    "price": 29.99,
+    "description": "Insulated travel tumbler featuring the beloved forest spirit Totoro. Keeps drinks hot or cold for hours!",
+    "images": [
+      "/images/black_front.png",
+      "/images/black_back.png"
+    ],
+    "image": "/images/tumbler-totoro.jpg",
+    "stock": 20,
+    "capacity": "500ml",
+    "material": "Stainless steel with double-wall insulation",
+    "features": ["Leak-proof lid", "Non-slip base", "BPA-free"]
+  }
+]
