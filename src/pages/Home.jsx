@@ -255,30 +255,31 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 md:gap-10 lg:gap-12 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 md:gap-10 lg:gap-12 max-w-7xl mx-auto">
             {/* Free Shipping */}
-            <div className="group relative">
-              {/* Card Background with Gradient Border */}
-              <div className="absolute inset-0 bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-500 rounded-[2rem] p-[2px]">
-                <div className="bg-white dark:bg-neutral-900 rounded-[calc(2rem-2px)] h-full"></div>
-              </div>
+            <div className="group relative overflow-hidden">
+              {/* Modern Card Background */}
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-blue-950/30 dark:via-indigo-950/30 dark:to-purple-950/30 rounded-3xl border border-blue-200/50 dark:border-blue-800/50 shadow-xl shadow-blue-500/10 dark:shadow-blue-500/5 group-hover:shadow-2xl group-hover:shadow-blue-500/20 dark:group-hover:shadow-blue-500/10 transition-all duration-500"></div>
               
               {/* Card Content */}
-              <div className="relative p-12 text-center">
-                {/* Static Icon Container */}
+              <div className="relative p-10 text-center">
+                {/* Icon with Modern Design */}
                 <div className="relative mb-8">
-                  <div className="w-24 h-24 bg-gradient-to-br from-primary-500 to-primary-600 rounded-[1.5rem] flex items-center justify-center mx-auto shadow-xl shadow-primary-500/25">
-                    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                  <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-blue-500/30 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
+                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                     </svg>
                   </div>
+                  {/* Decorative Elements */}
+                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-blue-400/20 rounded-full blur-sm"></div>
+                  <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-indigo-400/30 rounded-full blur-sm"></div>
                 </div>
 
-                <h3 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6">Free Shipping</h3>
-                <p className="text-neutral-600 dark:text-neutral-400 text-lg leading-relaxed mb-6">Free worldwide shipping on orders over $50</p>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Fast & Free Shipping</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-base leading-relaxed mb-6">Enjoy complimentary worldwide shipping on all orders over $50. No hidden fees, just pure value.</p>
                 
-                {/* Feature Badge */}
-                <div className="inline-flex items-center px-4 py-2 bg-primary-50 dark:bg-primary-950/30 text-primary-600 dark:text-primary-400 rounded-full text-sm font-semibold border border-primary-200 dark:border-primary-800">
+                {/* Modern Badge */}
+                <div className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full text-sm font-semibold shadow-lg shadow-blue-500/25 group-hover:shadow-xl group-hover:shadow-blue-500/40 transition-all duration-300">
                   <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
@@ -288,33 +289,29 @@ const Home = () => {
             </div>
 
             {/* Quality Guarantee */}
-            <div className="group relative">
-              {/* Card Background with Gradient Border */}
-              <div className="absolute inset-0 bg-gradient-to-br from-secondary-500 via-secondary-600 to-accent-coral rounded-[2rem] p-[2px] group-hover:p-[3px] transition-all duration-500">
-                <div className="bg-white dark:bg-neutral-900 rounded-[calc(2rem-2px)] h-full"></div>
-              </div>
+            <div className="group relative overflow-hidden">
+              {/* Modern Card Background */}
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 dark:from-emerald-950/30 dark:via-teal-950/30 dark:to-cyan-950/30 rounded-3xl border border-emerald-200/50 dark:border-emerald-800/50 shadow-xl shadow-emerald-500/10 dark:shadow-emerald-500/5 group-hover:shadow-2xl group-hover:shadow-emerald-500/20 dark:group-hover:shadow-emerald-500/10 transition-all duration-500"></div>
               
               {/* Card Content */}
-              <div className="relative p-12 text-center">
-                {/* Animated Icon Container */}
+              <div className="relative p-10 text-center">
+                {/* Icon with Modern Design */}
                 <div className="relative mb-8">
-                  <div className="w-24 h-24 bg-gradient-to-br from-secondary-500 to-secondary-600 rounded-[1.5rem] flex items-center justify-center mx-auto group-hover:scale-110 group-hover:-rotate-6 transition-all duration-500 shadow-xl shadow-secondary-500/25">
-                    {/* Floating Animation Ring */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-secondary-400 to-secondary-500 rounded-[1.5rem] opacity-20"></div>
-                    <svg className="w-12 h-12 text-white relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <div className="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-emerald-500/30 group-hover:scale-110 group-hover:-rotate-3 transition-all duration-500">
+                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                   </div>
-                  {/* Floating Particles */}
-                  <div className="absolute top-1 right-3 w-1.5 h-1.5 bg-secondary-400 rounded-full opacity-50"></div>
-                  <div className="absolute bottom-3 left-1 w-2 h-2 bg-accent-coral rounded-full opacity-30"></div>
+                  {/* Decorative Elements */}
+                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-emerald-400/20 rounded-full blur-sm"></div>
+                  <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-teal-400/30 rounded-full blur-sm"></div>
                 </div>
 
-                <h3 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 group-hover:text-secondary-600 dark:group-hover:text-secondary-400 transition-colors">Quality Guarantee</h3>
-                <p className="text-neutral-600 dark:text-neutral-400 text-lg leading-relaxed mb-6">Premium materials and craftsmanship</p>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">Premium Quality</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-base leading-relaxed mb-6">Every product undergoes rigorous quality checks. We guarantee premium materials and exceptional craftsmanship.</p>
                 
-                {/* Feature Badge */}
-                <div className="inline-flex items-center px-4 py-2 bg-secondary-50 dark:bg-secondary-950/30 text-secondary-600 dark:text-secondary-400 rounded-full text-sm font-semibold border border-secondary-200 dark:border-secondary-800">
+                {/* Modern Badge */}
+                <div className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-full text-sm font-semibold shadow-lg shadow-emerald-500/25 group-hover:shadow-xl group-hover:shadow-emerald-500/40 transition-all duration-300">
                   <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
@@ -324,34 +321,30 @@ const Home = () => {
             </div>
 
             {/* 24/7 Support */}
-            <div className="group relative">
-              {/* Card Background with Gradient Border */}
-              <div className="absolute inset-0 bg-gradient-to-br from-accent-coral via-accent-coral to-accent-mint rounded-[2rem] p-[2px] group-hover:p-[3px] transition-all duration-500">
-                <div className="bg-white dark:bg-neutral-900 rounded-[calc(2rem-2px)] h-full"></div>
-              </div>
+            <div className="group relative overflow-hidden">
+              {/* Modern Card Background */}
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 dark:from-orange-950/30 dark:via-amber-950/30 dark:to-yellow-950/30 rounded-3xl border border-orange-200/50 dark:border-orange-800/50 shadow-xl shadow-orange-500/10 dark:shadow-orange-500/5 group-hover:shadow-2xl group-hover:shadow-orange-500/20 dark:group-hover:shadow-orange-500/10 transition-all duration-500"></div>
               
               {/* Card Content */}
-              <div className="relative p-12 text-center">
-                {/* Animated Icon Container */}
+              <div className="relative p-10 text-center">
+                {/* Icon with Modern Design */}
                 <div className="relative mb-8">
-                  <div className="w-24 h-24 bg-gradient-to-br from-accent-coral to-accent-mint rounded-[1.5rem] flex items-center justify-center mx-auto group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-xl shadow-accent-coral/25">
-                    {/* Floating Animation Ring */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-accent-coral/60 to-accent-mint/60 rounded-[1.5rem] opacity-20"></div>
-                    <svg className="w-12 h-12 text-white relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                  <div className="w-20 h-20 bg-gradient-to-br from-orange-500 to-amber-600 rounded-2xl flex items-center justify-center mx-auto shadow-lg shadow-orange-500/30 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
+                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                   </div>
-                  {/* Floating Particles */}
-                  <div className="absolute top-3 right-1 w-1.5 h-1.5 bg-accent-mint rounded-full opacity-60"></div>
-                  <div className="absolute bottom-1 left-3 w-2 h-2 bg-accent-coral rounded-full opacity-40"></div>
+                  {/* Decorative Elements */}
+                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-orange-400/20 rounded-full blur-sm"></div>
+                  <div className="absolute -bottom-1 -left-1 w-4 h-4 bg-amber-400/30 rounded-full blur-sm"></div>
                 </div>
 
-                <h3 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100 mb-6 group-hover:text-accent-coral transition-colors">24/7 Support</h3>
-                <p className="text-neutral-600 dark:text-neutral-400 text-lg leading-relaxed mb-6">Always here to help with your orders</p>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">24/7 Expert Support</h3>
+                <p className="text-gray-600 dark:text-gray-400 text-base leading-relaxed mb-6">Our dedicated support team is always ready to assist you. Get help anytime, anywhere with your orders.</p>
                 
-                {/* Feature Badge */}
-                <div className="inline-flex items-center px-4 py-2 bg-accent-coral/10 dark:bg-accent-coral/20 text-accent-coral rounded-full text-sm font-semibold border border-accent-coral/30">
-                  <div className="w-2 h-2 bg-accent-coral rounded-full mr-2 animate-pulse"></div>
+                {/* Modern Badge */}
+                <div className="inline-flex items-center px-5 py-2.5 bg-gradient-to-r from-orange-500 to-amber-600 text-white rounded-full text-sm font-semibold shadow-lg shadow-orange-500/25 group-hover:shadow-xl group-hover:shadow-orange-500/40 transition-all duration-300">
+                  <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
                   Always Available
                 </div>
               </div>
